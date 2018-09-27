@@ -2,7 +2,7 @@ function findWaldo(arr) {
   arr.forEach(findName);
 }
 
-function findName(name) {
+function findName(name, i) {
     if (name === "Waldo") {
       actionWhenFound(i);   // execute callback
     }
